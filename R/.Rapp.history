@@ -1,0 +1,17 @@
+library(devtools)
+load_all()
+g
+graph
+g = Polblogs
+g = remove.vertex.attribute(g,"source")
+g = remove.vertex.attribute(g,"label")
+df = getAll.attribute(g)
+dist(df)
+dd = dist(df)
+head(dd)
+(dd)max
+max(dd)
+min(dd)
+mean(dd)
+dim(dd)
+dim(as.matrix(dd))

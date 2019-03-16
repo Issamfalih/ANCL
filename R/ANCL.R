@@ -1,0 +1,11 @@
+
+library(kohonen)
+library(pdist)
+library(igraph)
+library(scatterplot3d)
+library(svd)
+library(pryr)
+library(rsvd)
+library(irlba)
+library(ggplot2)
+#library(visNetwork)
